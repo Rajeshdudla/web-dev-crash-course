@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: 60vh;
+    gap:20px;
+    justify-content: center;
+    align-items: end;
+    background-color: rgb(127, 198, 198);
+}
+.container{
+    height: 25rem;
+    width: 20rem;
+    border-radius: 10px;
+    background-color: rgba(43, 138, 108, 0.566);
+    box-shadow: 3px 3px 4px rgb(46, 46, 46);
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.sub1{
+    height: 5rem;
+    width:5rem;
+    color: azure;
+    
+    
+   
+    background-color: rgb(109, 156, 198);
+    box-shadow: 3px 3px 5px rgb(8, 8, 8);
+    
+}
+.sub2{
+    height: 5rem;
+    width:5rem;
+    color: azure;
+    background-color: rgb(41, 90, 132);
+    box-shadow: 3px 3px 5px rgb(8, 8, 8);
+    
+}
+.sub3{
+    height: 5rem;
+    width:5rem;
+    display: flex;
+    
+    color: azure;
+    background-color: rgb(4, 25, 43);
+    box-shadow: 3px 3px 5px rgb(8, 8, 8);
+    
+}
+.sub11{
+    display:flex;
+    justify-content: center;
+}
+.sub21{
+    display:flex;
+    justify-content: center;
+}
+.sub31 h1{
+     margin-left: 15px;
+}
+.con2{
+    
+    color: whitesmoke;
+    
+   
+    display: flex;
+    
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+p{
+    color: rgb(213, 216, 216);
+    margin-left: 15px;
+}

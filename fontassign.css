@@ -1,0 +1,70 @@
+.box{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 5rem;
+    font-weight: bold;
+   
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+.box1{
+    background-color: #89cee1;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+   
+}
+.box2{
+    background-color:#ECEEDF ;
+      font-family: "Mukta", sans-serif;
+}
+.box3{
+    background-color: #CFAB8D;
+     font-family: "Aguafina Script", cursive
+    
+}
+.con{
+    
+    height: 100vh;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.box :hover{
+    color: rgb(167, 39, 11);
+}
+#h{
+    color: rgb(211, 211, 211);
+    font-size: 3rem;
+}
+#p1{
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.main{
+    padding: 100px;
+}
+body{
+    background-color: rgb(5, 90, 61);
+}
+.main a{
+    color: black;
+    background-color:  aliceblue;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration-line: none;
+    margin-left: 500px;
+    
+    
+}
+.main a:hover{
+    background-color: rgb(144, 142, 142);
+}
