@@ -37,10 +37,12 @@ a{
     
 }
 .con1{ 
-    margin-left: 0px;
-    background-color: #547792;
-    display: flex;
+margin-left: 0px;
+   background-color: #547792;
+   display: flex;
    justify-content: space-between;
+   position: sticky;
+   top: 0;
 
 }
 h2{
