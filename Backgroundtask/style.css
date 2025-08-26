@@ -1,0 +1,53 @@
+body{
+    background-image: url(./lone-tree.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con1{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    backdrop-filter: blur(50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    transition: width,height 1s ease 0s,transform .5s ease 0s,box-shadow 2s ease 1s;
+    
+
+    
+
+}
+.con1:hover{
+    box-shadow: 3px 3px 5px white;
+    transform: rotate(10deg);
+    width: 425px;
+    height:550px ;
+    
+   
+    
+}
+img{
+    width: 250px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px rgb(18, 0, 0);
+   
+}
+
+#pic{
+    margin-left: 2px;
+    margin-top: 30px;
+}
+.t p{
+    color: white;
+    font-size: 20px;
+}
+.t2{
+    padding: 20px;
+    font-size:18px ;
+    color: white;
+}
