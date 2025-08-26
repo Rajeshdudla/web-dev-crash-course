@@ -1,0 +1,25 @@
+body{
+    background-image: url('../images/pixels_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
+    backdrop-filter: blur(50px);
+    /* transition-property: width,transform;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s; */
+    transition: width 1s ease 0s, transform 1s ease 1s;
+}
+.box:hover{
+    transform: rotate(10deg);
+    width: 750px;
+}
