@@ -1,7 +1,11 @@
 body{
-    margin: 0px;
+    margin: 10px;
+    margin-top: 10px;
+    
     height: 150vh;
-    background-color: #213448;
+    background-image: url(./clouds-4215608_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #pic img{
     height: 100px;
@@ -26,23 +30,22 @@ li{
     padding: 10px;
 }
 li:hover{
-    background-color: rgb(88, 87, 87);
+    background-color: white;
 }
 a{
     text-decoration: none;
     color: black;
 }
-.list{
-    
-    
-}
+
 .con1{ 
-margin-left: 0px;
-   background-color: #547792;
+    position: sticky;
+   margin-left: 0px;
+   border-radius: 20px;
    display: flex;
    justify-content: space-between;
    position: sticky;
    top: 0;
+   backdrop-filter: blur(50px);
 
 }
 h2{
@@ -53,9 +56,9 @@ h2{
 }
 .im img{
     margin-top: 150px;
-    height: 350px;
+    height: 300px;
     border-radius: 10px;
-    box-shadow: 3px 3px 10px black;
+    box-shadow: 3px 3px 10px rgb(155, 154, 154);
     
 }
 p{
