@@ -1,0 +1,111 @@
+.box{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20rem;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.data{
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    /* animation-name: simpleAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease; */
+    animation:simpleAnimation 3s ease 1;
+    animation-timeline: view(40% 20%);
+    animation-fill-mode: both;
+}
+
+@keyframes simpleAnimation {
+    0%{
+       opacity: 0;
+       scale: 0.5;
+    }
+    100%{
+        opacity: 1;
+        scale: 1;
+    }
+}
+/* .data2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    animation: rotateAnimation 2s linear infinite;
+    animation-play-state: running;
+    transform-origin: right;
+
+} */
+
+.loader {
+    width: 70px;
+    height: 70px;
+    animation: rotateAnimation linear;
+    animation-timeline: view(40% 20%);
+    /* animation-fill-mode: both; */
+}
+@keyframes rotateAnimation {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }  
+    100%{
+        transform: rotate(720deg);
+    }
+}
+.data2-container{
+    border: 2px solid black;
+    height: 200vh;
+    font-size: 2rem;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* animation: blurAnimation 1s ease;
+    animation-timeline: view(); */
+}
+.sub-con{
+    display: flex;
+    height: 400px;
+    background-color: lime;
+    font-size:11rem;
+    gap: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: blurAnimation 1s ease;
+    animation-timeline: view(40% 20%);
+    animation-fill-mode: both;
+}
+@keyframes blurAnimation {
+    0%{
+        filter: blur(20px);
+        opacity: 0;
+    }
+    45%,55%{
+        filter: blur(0px);
+        opacity: 1;
+    }
+    100%{
+        filter: blur(20px);
+        opacity: 1;
+    }
+}
+.data2{
+    font-weight: bold;
+    color: black;
+}
+.data3 {
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+}
